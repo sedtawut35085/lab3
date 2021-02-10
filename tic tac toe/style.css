@@ -1,13 +1,18 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(85, 175, 226);
 }
 
 .game{
     width: 400px;
     height: 400px;
     margin: 100px auto;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
 }
 
 .blocks{
@@ -17,5 +22,6 @@ body{
     margin: 5px;
     float: left;
     cursor: pointer;
-    text-align: cennter;
+    text-align: center;
+    font-size: 120px;
 }
